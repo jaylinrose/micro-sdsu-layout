@@ -1,61 +1,80 @@
 
-
 * {
-    /* outline: 1px solid red; */
+    outline: none;
 }
 
 body {
-    margin: 0;
+    margin: none;
 }
 
-nav ul li {
-    display: inline-block;
+#header-1 {
+    text-align: right;
+    padding: 20px;
+    background-color: black;
+    color: antiquewhite;
+    font-family: 'Besley', serif;
 }
 
+nav ul li, .tab-list ul li{
+    display: inline-block
+
+}
+
+.tab-list ul li{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.tab-list ul{
+    text-align: center;
+}
 
 nav a {
     text-decoration: none;
-    padding-left: 10px;
-
+    padding: 35px;
+    font-family: SST, helvetica, arial, sans-serif;
+    color: rgb(169, 168, 168);
 }
 
-.promo-div {
-    background: blue;
-    color: white;
-    height: 40px;
+.tab-list a {
+    text-decoration: none;
+    padding: 40px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(30, 29, 29);
+    font-weight: bolder;
+    
+    
+}
+
+#header-2{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    text-align: left;
+}
+.game-row-midsection {
     text-align: center;
+    margin-top: 150px;
+   
 }
 
-.main-image {
-    height: 500px;
-    background: red;
-}
-
-.main-image img {
-    width: 100%;
-    height: 100%;
-}
-
-
-
-.product-categories, .service-cards {
-    text-align: center;
-    margin-top: 25px;
-}
-
-.product-categories div {
+.game-row-midsection div {
     display: inline-block;
-    height: 100px;
+    padding: 30px;
+
 }
 
-
-.service-cards div {
-    display: inline-block;
-    width: 24%;
-}
-
-
-.service-cards div img{
-    width: 100%;
+.game-row-midsection div img {
+    width: 200px;
     height: 200px;
 }
+
+p {
+    width: 200px;
+    height: 200px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
