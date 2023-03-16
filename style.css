@@ -41,9 +41,27 @@ nav a {
     padding: 40px;
     font-family: 'Montserrat', sans-serif;
     color: rgb(30, 29, 29);
-    font-weight: bolder;
-    
-    
+    font-weight: bolder; 
+}
+
+.tab-list li:hover {
+    background-color: rgb(198, 198, 198);
+    border-radius: 50px;
+
+}
+
+nav li:hover {
+    background-color: rgb(198, 198, 198);
+    border-radius: 50px;
+
+}
+
+#playstation-store {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    text-align: left;
+    width: 20%;
+    display: inline-block;
 }
 
 #header-2{
